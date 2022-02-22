@@ -1,4 +1,5 @@
 {
-  "route": "/profile/index.html",
-  "allowedRoles": ["authenticated"]
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
 }
